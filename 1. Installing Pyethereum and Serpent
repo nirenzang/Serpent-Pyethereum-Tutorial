@@ -1,0 +1,4 @@
+# Windows
+Unfortunately, to the best of my knowledge, the only way to run pyethereum and serpent on Linux is via a Linux virtual machine.
+# Linux
+As Linux is the most commonly used platform, [pyethereum](https://github.com/ethereum/pyethereum) and [serpent](https://github.com/ethereum/wiki/wiki/Serpent) github homepage provide up-to-date installation guidance.
