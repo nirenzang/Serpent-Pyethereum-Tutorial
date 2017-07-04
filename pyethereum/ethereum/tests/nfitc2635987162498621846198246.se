@@ -1,0 +1,3 @@
+
+def foo(a, b:arr, c:str):
+    return a * 10 + b[1]

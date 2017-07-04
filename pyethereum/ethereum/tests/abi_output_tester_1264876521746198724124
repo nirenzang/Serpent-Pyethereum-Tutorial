@@ -1,0 +1,9 @@
+
+data addrs[]
+
+def get_address(key):
+    return(self.addrs[key]:address)
+
+def register(key, addr:address):
+    if not self.addrs[key]:
+        self.addrs[key] = addr
