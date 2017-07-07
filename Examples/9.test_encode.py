@@ -18,6 +18,6 @@ print(c.sha3check(choice1, nonce1, sender=tester.k0))
 
 ch1 = bytearray(utils.int_to_32bytearray(choice1))
 no1 = bytearray(utils.int_to_32bytearray(nonce1))
-tohash = bytearray().join([bytearray(12), tester.a0, ch1, no1])
+tohash = bytearray().join([utils.zpad(tester.a0, 32), ch1, no1])
 print('the sha3 result computed by pyethereum')
 print(utils.coerce_to_int(utils.sha3(bytes(tohash))))
